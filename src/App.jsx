@@ -4,11 +4,9 @@ import bg from "./assets/bg.png";
 
 function App() {
   return (
-    <div className="min-h-screen py-12 px-6 md:px-16 overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>
-      <div className="mx-auto">
+    <div className="min-h-screen py-16 px-6 md:px-16 overflow-hidden bg-cover bg-center" style={{ backgroundImage: `url(${bg})` }}>
         <Header />
         <RecipeList />
-      </div>
     </div>
   );
 }
